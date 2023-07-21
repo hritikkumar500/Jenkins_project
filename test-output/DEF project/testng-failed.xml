@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [DEF project]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="msedgeTest(failed)">
+    <parameter name="browser" value="msedge"/>
+    <classes>
+      <class name="amazon.testcases.AmazonTest">
+        <methods>
+          <include name="login"/>
+          <include name="nevigateToURL"/>
+          <include name="setup"/>
+          <include name="closeURL"/>
+        </methods>
+      </class> <!-- amazon.testcases.AmazonTest -->
+    </classes>
+  </test> <!-- msedgeTest(failed) -->
+</suite> <!-- Failed suite [DEF project] -->

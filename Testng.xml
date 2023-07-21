@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DEF_project">
+
+  <test name="chromeTest">
+    <classes>
+      <class name="amazon.testcases.AmazonTest"/>
+      <!-- <class name="amazon.testcases.SelectRegionTest"/>  -->
+      <!-- <class name="amazon.testcases.SearchTest"/>  -->
+      <!-- <class name="amazon.testcases.AddToCartTest"/>  -->
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
